@@ -1,0 +1,11 @@
+.rootHeader {
+  display: flex;
+  width: 100%;
+  padding: 1rem 2rem;
+  justify-content: flex-end;
+  align-items: center;
+  gap: 1rem;
+  border-radius: 1rem;
+  border: 1px solid #e6eaf4;
+  background: #fff;
+}

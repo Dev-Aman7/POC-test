@@ -1,0 +1,48 @@
+.rootSidebar {
+  display: flex;
+  min-width: 100%;
+  padding: 2rem;
+  flex-direction: column;
+  border-radius: 1rem;
+  border: 1px solid #e6eaf4;
+  background: #fff;
+  min-height: 100%;
+  justify-content: space-between;
+}
+
+.rootSidebar .itemsWrapper {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: flex-start;
+  gap: 0.5rem;
+  min-width: 100%;
+}
+
+.rootSidebar .itemsWrapper > button {
+  display: flex;
+  padding: 0.5rem 1rem;
+  align-items: center;
+  gap: 0.5rem;
+  align-self: stretch;
+  justify-content: flex-start;
+  border-radius: 0.5rem;
+  opacity: 0.8;
+  font-size: 24px;
+}
+
+.rootSidebar .itemsWrapper > button.active {
+  background: rgba(134, 56, 160, 0.05);
+  color: #8638a0;
+  font-size: 1rem;
+  font-style: normal;
+  font-weight: 700;
+}
+
+.rootSidebar .itemsWrapper > button p {
+  transform: translateY(10%);
+}
+
+.rootSidebar .itemsWrapper > button.active p {
+  font-weight: 700;
+}

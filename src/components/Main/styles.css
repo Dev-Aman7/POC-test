@@ -1,0 +1,8 @@
+.rootMain {
+  display: flex;
+  flex-direction: column;
+  flex-shrink: 0;
+  border-radius: 1rem;
+  border: 2px solid #e6eaf4;
+  min-height: 100%;
+}

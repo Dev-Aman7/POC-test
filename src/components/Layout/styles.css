@@ -1,0 +1,24 @@
+.rootLayout {
+  min-height: 100vh;
+  display: grid;
+  padding: 1rem;
+  gap: 1rem;
+  grid-template-columns: 300px 1fr;
+  grid-template-rows: auto 1fr;
+  grid-template-areas:
+    'sidebar header'
+    'sidebar main';
+}
+
+.sidebar {
+  grid-area: sidebar;
+}
+
+.header {
+  grid-area: header;
+}
+
+.mainContent {
+  grid-area: main;
+  font-size: 5rem;
+}
