@@ -21,8 +21,13 @@
   min-width: 27rem;
 }
 
-.rootProgressBanner .progress span {
+.rootProgressBanner .progress .progressBar {
   height: 0.75rem;
   width: 26.25rem;
+  border-radius: 0.5rem;
+  background-color: var(--grey4);
+}
+
+.rootProgressBanner .progress .progressBar span {
   border-radius: 0.5rem;
 }

@@ -6,6 +6,9 @@
   align-items: center;
   gap: 1rem;
   border-radius: 1rem;
-  border: 1px solid #e6eaf4;
-  background: #fff;
+  border: 1px solid var(--grey5);
+}
+
+.rootHeader .profile .status {
+  color: var(--grey2);
 }

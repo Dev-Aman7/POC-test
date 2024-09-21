@@ -11,7 +11,7 @@
 
 .stepperWrapper {
   grid-area: stepperWrapper;
-  border-right: 1px solid #e6eaf4;
+  border-right: 1px solid var(--grey5);
   padding-right: 2rem;
   min-width: 12.375rem;
   /* min-height: 100%; */

@@ -9,17 +9,17 @@ function AppThemeProvider({ children }) {
   const theme = createTheme({
     palette: {
       primary: {
-        main: '#1c9c7c',
+        main: '#8638a0',
       },
       secondary: {
-        main: '#9DF3C4',
+        main: '#8638a00d',
       },
 
       background: {},
     },
     typography: {
       fontFamily: 'Inter, Roboto, sans-serif',
-      // fontSize: 16, // Default font size
+      lineHeight: 'normal',
       subtitle1: {
         fontSize: '1.375rem',
       },

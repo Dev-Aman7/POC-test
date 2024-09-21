@@ -1,6 +1,6 @@
 .rootMain {
   border-radius: 1rem;
-  border: 2px solid #e6eaf4;
+  border: 2px solid var(--grey5);
   min-height: 100%;
   height: 100%;
 }

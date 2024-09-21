@@ -8,9 +8,11 @@ const Header = () => {
       <IconButton>
         <img src={UserIcon} alt="userIcon" height={60} width={60} />
       </IconButton>
-      <div>
+      <div className="profile">
         <Typography variant="subtitle1">Viridiana Alverde</Typography>
-        <Typography variant="subtitle2">Actively Looking</Typography>
+        <Typography variant="subtitle2" className="status">
+          Actively Looking
+        </Typography>
       </div>
     </div>
   );
