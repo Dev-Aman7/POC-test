@@ -4,3 +4,15 @@ html {
   font-size: 13.61px !important;
   /* font-size: 16px; */
 }
+
+:root {
+  --primary: #8638a0;
+  --secondary: #8638a00d;
+  --white: #fff;
+  --black1: #212529;
+  --grey1: #6c757d;
+  --grey2: #828285;
+  --grey3: #f3f3f4;
+  --weight500: 500;
+  --weight700: 700;
+}

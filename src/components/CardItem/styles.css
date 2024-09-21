@@ -1,0 +1,42 @@
+.rootCardItem {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  align-self: stretch;
+  padding: 1rem;
+  border-radius: 0.5rem;
+  border: 1px solid var(--grey3);
+}
+
+.rootCardItem .infoWrapper {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  gap: 0.25rem;
+  color: var(--black1);
+}
+
+.rootCardItem .infoWrapper .description {
+  display: flex;
+  align-items: center;
+  color: var(--grey1);
+  font-weight: var(--weight500);
+}
+
+.rootCardItem .infoWrapper .description img {
+  width: 1.5rem;
+  height: 1.5rem;
+}
+
+.rootCardItem .actionWrapper {
+  display: flex;
+  align-items: center;
+  /* gap: var(--Number-scale-XS, 8px); */
+}
+
+.rootCardItem .actionWrapper button {
+  border-radius: 0.5rem;
+  display: flex;
+  /* height: var(--Number-scale-L, 44px); */
+  gap: 0.5rem;
+}

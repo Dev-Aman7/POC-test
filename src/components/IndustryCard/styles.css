@@ -1,0 +1,7 @@
+.rootIndustryCard {
+  padding-left: 2rem;
+}
+
+.rootIndustryCard .cardItemWrapper > div:not(:first-child):not(:last-child) {
+  margin: 0.5rem 0;
+}
