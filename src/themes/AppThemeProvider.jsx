@@ -31,6 +31,9 @@ function AppThemeProvider({ children }) {
       },
       h1: {
         fontSize: '1.5rem',
+        [`@media screen and (max-width: 540px)`]: {
+          fontSize: '1.75rem',
+        },
         fontWeight: 500,
       },
     },

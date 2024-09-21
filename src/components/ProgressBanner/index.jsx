@@ -1,4 +1,4 @@
-import { Typography, LinearProgress } from '@mui/material';
+import { Typography, LinearProgress, Button } from '@mui/material';
 
 import './styles.css';
 const ProgressBanner = () => {
@@ -16,6 +16,7 @@ const ProgressBanner = () => {
         />
         <Typography variant="subtitle2">13/14</Typography>
       </div>
+      <Button variant="outlined">See Progress</Button>
     </div>
   );
 };

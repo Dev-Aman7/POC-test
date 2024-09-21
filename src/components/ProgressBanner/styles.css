@@ -31,8 +31,30 @@
   border-radius: 0.5rem;
 }
 
+.rootProgressBanner button {
+  display: none;
+}
+
 @media screen and (max-width: 540px) {
   .rootProgressBanner .progress .progressBar {
     width: 9.375rem;
+  }
+  .rootProgressBanner .messageWrapper h6 {
+    display: none;
+  }
+  .rootProgressBanner button {
+    display: block;
+    text-transform: capitalize;
+    font-size: 1rem;
+    border-radius: 0.5rem;
+  }
+}
+
+@media screen and (max-width: 768px) {
+  .rootProgressBanner button {
+    display: block;
+    text-transform: capitalize;
+    font-size: 1rem;
+    border-radius: 0.5rem;
   }
 }

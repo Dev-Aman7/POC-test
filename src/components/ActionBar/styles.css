@@ -59,7 +59,10 @@
 }
 
 @media screen and (max-width: 768px) {
-  .rootActionBar .actionWrapper {
+  .rootActionBar .actionWrapper button:first-child {
     display: none;
+  }
+  .rootActionBar {
+    align-items: start;
   }
 }
