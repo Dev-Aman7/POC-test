@@ -1,7 +1,7 @@
 import { IconButton, Typography } from '@mui/material';
-import InfoIcon from '../../assets/info.svg';
+import InfoIcon from '../../assets/Info.svg';
 import ArrowIcon from '../../assets/Arrow.svg';
-import AddIcon from '../../assets/add.svg';
+import AddIcon from '../../assets/Add.svg';
 
 import './styles.css';
 const ActionBar = () => {
