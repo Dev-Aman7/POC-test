@@ -1,0 +1,23 @@
+.home {
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+}
+.home .mainContent {
+  padding: 2rem;
+  display: flex;
+  height: 100%;
+}
+
+.stepperWrapper {
+  grid-area: stepperWrapper;
+  border-right: 1px solid #e6eaf4;
+  padding-right: 2rem;
+  min-width: 12.375rem;
+  /* min-height: 100%; */
+}
+
+.industryCardWrapper {
+  grid-area: industryCardWrapper;
+  flex: 1;
+}

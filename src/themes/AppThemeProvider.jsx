@@ -18,6 +18,8 @@ function AppThemeProvider({ children }) {
       background: {},
     },
     typography: {
+      fontFamily: 'Inter, Roboto, sans-serif',
+      // fontSize: 16, // Default font size
       subtitle1: {
         fontSize: '1.375rem',
       },
@@ -29,6 +31,7 @@ function AppThemeProvider({ children }) {
       },
       h1: {
         fontSize: '1.5rem',
+        fontWeight: 500,
       },
     },
   });

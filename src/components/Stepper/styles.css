@@ -1,0 +1,32 @@
+.rootStepper {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  gap: 1rem;
+  position: relative;
+}
+.rootStepper::before {
+  content: '';
+  position: absolute;
+  top: 0;
+  left: 0.75rem;
+  bottom: 0px;
+  width: 1px;
+  background: #dee2e6;
+  z-index: -1;
+}
+.rootStepper .items {
+  display: flex;
+  align-items: center;
+  gap: 0.5rem;
+}
+.rootStepper .items img {
+  width: 1.5rem;
+  height: 1.5rem;
+}
+.rootStepper .items:first-child p {
+  font-weight: 500;
+}
+.rootStepper .items:not(:first-child) {
+  color: #6c757d;
+}
