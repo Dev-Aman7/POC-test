@@ -20,6 +20,10 @@
   font-weight: var(--weight500);
 }
 
+.rootActionBar .infoWrapper .description button {
+  padding: 0;
+}
+
 .rootActionBar .infoWrapper .description img {
   width: 1.5rem;
   height: 1.5rem;
@@ -28,20 +32,34 @@
 .rootActionBar .actionWrapper {
   display: flex;
   align-items: center;
-  gap: var(--Number-scale-XS, 8px);
+  gap: 0.5rem;
 }
 
 .rootActionBar .actionWrapper button {
   background-color: var(--primary);
   border-radius: 0.5rem;
   display: flex;
-  height: var(--Number-scale-L, 44px);
+  height: 2.75rem;
   align-items: center;
   gap: 0.5rem;
   color: var(--white);
   padding: 0 1rem;
 }
 
+.rootActionBar .actionWrapper button img.arrowIcon {
+  height: 1.5rem;
+}
+
+.rootActionBar .actionWrapper button img {
+  height: 2.75rem;
+}
+
 .rootActionBar .actionWrapper button:not(:first-child) {
   padding: 0;
+}
+
+@media screen and (max-width: 768px) {
+  .rootActionBar .actionWrapper {
+    display: none;
+  }
 }

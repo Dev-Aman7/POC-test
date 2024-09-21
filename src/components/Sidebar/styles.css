@@ -9,6 +9,9 @@
   min-height: 100%;
   justify-content: space-between;
 }
+.rootSidebar .logoWrapper img {
+  width: 12.75rem;
+}
 
 .rootSidebar .itemsWrapper {
   display: flex;
@@ -28,7 +31,7 @@
   justify-content: flex-start;
   border-radius: 0.5rem;
   opacity: 0.8;
-  font-size: 24px;
+  font-size: 1.5rem;
 }
 
 .rootSidebar .itemsWrapper > button.active {

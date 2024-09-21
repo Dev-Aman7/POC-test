@@ -13,16 +13,16 @@ const ActionBar = () => {
           <Typography>
             Choose the industries and the job categories that are most relevant
             to you.
+            <IconButton>
+              <img src={InfoIcon} alt="info" />
+            </IconButton>
           </Typography>
-          <IconButton>
-            <img src={InfoIcon} alt="info" />
-          </IconButton>
         </div>
       </div>
       <div className="actionWrapper">
         <IconButton>
           <Typography>Import</Typography>
-          <img src={ArrowIcon} alt="arrow" />
+          <img src={ArrowIcon} alt="arrow" className="arrowIcon" />
         </IconButton>
         <IconButton>
           <img src={AddIcon} alt="add" />

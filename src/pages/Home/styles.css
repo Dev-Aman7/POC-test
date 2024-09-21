@@ -14,10 +14,15 @@
   border-right: 1px solid var(--grey5);
   padding-right: 2rem;
   min-width: 12.375rem;
-  /* min-height: 100%; */
 }
 
 .industryCardWrapper {
   grid-area: industryCardWrapper;
   flex: 1;
+}
+
+@media screen and (max-width: 768px) {
+  .stepperWrapper {
+    display: none;
+  }
 }

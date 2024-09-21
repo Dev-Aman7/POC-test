@@ -9,6 +9,28 @@
   border: 1px solid var(--grey5);
 }
 
+.rootHeader img {
+  height: 3.75rem;
+  width: 3.75rem;
+}
+
 .rootHeader .profile .status {
   color: var(--grey2);
+}
+
+.rootMobileHeader {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+@media screen and (max-width: 768px) {
+  .rootHeader {
+    display: none;
+  }
+}
+
+@media screen and (min-width: 768px) {
+  .rootMobileHeader {
+    display: none;
+  }
 }

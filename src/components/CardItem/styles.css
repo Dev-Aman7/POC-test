@@ -21,6 +21,7 @@
   align-items: center;
   color: var(--grey1);
   font-weight: var(--weight500);
+  flex-wrap: wrap;
 }
 
 .rootCardItem .infoWrapper .description img {
@@ -31,12 +32,10 @@
 .rootCardItem .actionWrapper {
   display: flex;
   align-items: center;
-  /* gap: var(--Number-scale-XS, 8px); */
 }
 
 .rootCardItem .actionWrapper button {
   border-radius: 0.5rem;
   display: flex;
-  /* height: var(--Number-scale-L, 44px); */
   gap: 0.5rem;
 }

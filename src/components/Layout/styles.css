@@ -3,7 +3,7 @@
   display: grid;
   padding: 1rem;
   gap: 1rem;
-  grid-template-columns: 300px 1fr;
+  grid-template-columns: 18.75rem 1fr;
   grid-template-rows: auto 1fr;
   grid-template-areas:
     'sidebar header'
@@ -20,4 +20,49 @@
 
 .mainContent {
   grid-area: main;
+}
+
+.rootLayout {
+  min-height: 100vh;
+  display: grid;
+  padding: 1rem;
+  gap: 1rem;
+  grid-template-columns: 18.75rem 1fr;
+  grid-template-rows: auto 1fr;
+  grid-template-areas:
+    'sidebar header'
+    'sidebar main';
+}
+
+.sidebar {
+  grid-area: sidebar;
+}
+
+.header {
+  grid-area: header;
+}
+
+.mainContent {
+  grid-area: main;
+}
+
+/* Media query for smaller screens */
+@media screen and (max-width: 768px) {
+  .rootLayout {
+    grid-template-columns: 1fr;
+    grid-template-rows: auto 1fr;
+    grid-template-areas:
+      'header'
+      'main';
+    gap: 0;
+  }
+
+  .sidebar {
+    display: none;
+  }
+
+  .header,
+  .mainContent {
+    padding: 0 1rem;
+  }
 }

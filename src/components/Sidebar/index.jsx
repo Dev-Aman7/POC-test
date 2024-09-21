@@ -25,7 +25,7 @@ const Sidebar = () => {
     <div className="rootSidebar">
       <div>
         <div>
-          <IconButton>
+          <IconButton className="logoWrapper">
             <img src={Logo} alt="logo" />
           </IconButton>
         </div>
