@@ -1,7 +1,7 @@
 import React from 'react';
 import { Typography } from '@mui/material';
 import CheckIcon from '../../assets/CheckIcon.svg';
-import UnCheckIcon from '../../assets/UnCheckIcon.svg';
+import UnCheckIcon from '../../assets/UncheckIcon.svg';
 import './styles.css';
 const items = [
   {
