@@ -25,4 +25,7 @@
   .stepperWrapper {
     display: none;
   }
+  .home .mainContent {
+    padding: 1.5rem 1rem;
+  }
 }

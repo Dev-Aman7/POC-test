@@ -9,12 +9,12 @@ const Mobile = () => {
       <IconButton>
         <img src={Logo} alt="logo" />
       </IconButton>
-      <div>
-        <IconButton>
-          <img src={MenuIcon} alt="menu" />
-        </IconButton>
+      <div className="profileWrapper">
         <IconButton>
           <img src={PersonIcon} alt="person" />
+        </IconButton>
+        <IconButton>
+          <img src={MenuIcon} alt="menu" />
         </IconButton>
       </div>
     </div>

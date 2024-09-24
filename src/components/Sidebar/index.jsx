@@ -24,8 +24,8 @@ const Sidebar = () => {
   return (
     <div className="rootSidebar">
       <div>
-        <div>
-          <IconButton className="logoWrapper">
+        <div className="logoWrapper">
+          <IconButton>
             <img src={Logo} alt="logo" />
           </IconButton>
         </div>
